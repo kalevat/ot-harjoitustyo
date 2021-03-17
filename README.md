@@ -9,3 +9,4 @@ Uusi viesti
 
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
+Toimii!
