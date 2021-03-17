@@ -5,7 +5,7 @@ Uusi viesti
 ----------
 *uusi juttu*
 
-[here] (laskarit/viikko1/gitlog.txt)
+[gitlog.txt](laskarit/viikko1/gitlog.txt)
 
-https://github.com/kalevat/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt
+[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
