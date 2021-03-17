@@ -1,0 +1,114 @@
+
+commit d46026da9e1bb86381e1ff38a913a241f6b0e881
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:49:41 2021 +0000
+
+    vika muutos
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c61a913063303abf484447f08141f512b25a53fd
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:45:42 2021 +0000
+
+    uudet tiedostot
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f2e7adfe62aa13fe88699fc8c5b66fae98163d0b
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:42:25 2021 +0000
+
+    seuraava muutos
+
+ eka.txt    | 1 +
+ kolmas.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 79b7e69a67d1a14bb71ff6c007f4e7328fb477df
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:40:52 2021 +0000
+
+    uudelleen nimeäminen
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 61f952ebf301a196ba073d63d7ca3e928123d7d6
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:39:12 2021 +0000
+
+    poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4ef5508cc8b34f710445ac076d7210b9f717cf4b
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:37:11 2021 +0000
+
+    tekstiä muutettu
+
+ tiedosto.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 420f434cba2d99b138813c51f15a913be7f3e0d7
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:36:26 2021 +0000
+
+    paljon tekstiä
+
+ tiedosto.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit af189f8f51dab0acfb3fbf6d05cb384aca8ff31a
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:34:50 2021 +0000
+
+    lisäys
+
+ stuff/viesti.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1a1685b26e75ca068bd07d9a6e76ae0ea84005bd
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:33:26 2021 +0000
+
+    muutos
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit ad53e4e4e6203164af87bbe60542d65d96e4173f
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:31:59 2021 +0000
+
+    tehty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 52d0c039839c8db9db4ccc24d9783a8f749be3c1
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:30:41 2021 +0000
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 827aa29e9cfbbac073437bd179faa63a183e3879
+Author: Tomi Kaleva <tomi.kaleva@gmail.com>
+Date:   Wed Mar 17 15:22:51 2021 +0000
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
