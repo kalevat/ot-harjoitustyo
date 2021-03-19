@@ -4,3 +4,4 @@ Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiske
 
 # Dokumentaatio
 [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+[Työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
