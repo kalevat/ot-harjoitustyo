@@ -2,4 +2,4 @@
 
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
-| 19.3. | 3    | vaatimusmäärittely |
+| 19.3. | 2    | vaatimusmäärittely |
