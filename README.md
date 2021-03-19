@@ -1,13 +1,5 @@
-Tekstiä tänne
-=============
+# Kurssikirjanpito
+Sovelluksella käyttäjä voi pitää yllä tietoa kursseista, joita hän opiskelee ja mitä päivittäisi kotitehtäviä on eri kursseissa. Myös kurssien perustiedot (op määrä, tenttiaikataulu, yms) voi tallentaa sovellukseen Sovelluksesta on nähtävissä päivittäinen työlista ja tehtävät voi merkitä tehdyiksi. **"Mitä mun pitää tänään tehdä?"**
 
-Uusi viesti
-----------
-*uusi juttu*
-
-[gitlog.txt](laskarit/viikko1/gitlog.txt)
-
-[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
-
-Toimii!
-Epäsynkka
+# Dokumentaatio
+[Vaatimusmäärittely(dokumentaatio/vaatimusmaarittely.md)
