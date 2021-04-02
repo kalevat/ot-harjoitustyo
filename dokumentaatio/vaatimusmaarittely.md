@@ -29,7 +29,7 @@ Sovellus koostuu eri näkymistä:
   - luoda uuden kurssin
   - muuttaa tietoja
   - poistaa kurssin
-- käyttäjä päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
+- käyttäjä voi kuitata päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
 - käyttäjä voi ajaa raportteja kurssitiedoistaan
 - käyttäjä voi kirjautua ulos järjestelmästä
 
@@ -42,4 +42,3 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 - ryhmitellä kurssitehtäviä (laskarit, vertaisarviointi, essee, koodaus)
 - työmäärien ylläpito ja tuntikirjaus
 - kurssisuorituksien kirjaaminen (op, pvm, työmäärä)
--  
