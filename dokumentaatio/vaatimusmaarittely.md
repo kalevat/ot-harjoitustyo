@@ -29,7 +29,7 @@ Sovellus koostuu eri näkymistä:
   - luoda uuden kurssin
   - muuttaa tietoja
   - poistaa kurssin
-- käyttäjä päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
+- käyttäjä voi kuitata päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
 - käyttäjä voi ajaa raportteja kurssitiedoistaan
 - käyttäjä voi kirjautua ulos järjestelmästä
 
