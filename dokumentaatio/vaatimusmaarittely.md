@@ -42,4 +42,3 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 - ryhmitellä kurssitehtäviä (laskarit, vertaisarviointi, essee, koodaus)
 - työmäärien ylläpito ja tuntikirjaus
 - kurssisuorituksien kirjaaminen (op, pvm, työmäärä)
--  
