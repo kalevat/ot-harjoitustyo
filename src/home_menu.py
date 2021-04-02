@@ -1,0 +1,50 @@
+from ui.ui import UI
+from repositories.course_repository import CourseRepository
+from database_connection import get_database_connection
+
+class HomeMenu:
+    def __init__(self):
+        self._actions = {
+            "x": "x Lopeta",
+            "1": "1 Uusi kurssi",
+            "2": "2 Hae kurssit"
+        }
+        self._headers = [
+            "Kurssi",
+            "Opintopisteet"
+        ]
+        self._ui = UI()
+        self._repository = CourseRepository(get_database_connection())       
+        
+    def start(self):
+        self._help()
+
+        while True:
+            action = self._ui.read("Anna komento: ")
+
+            if not action in self._actions:
+                self._ui.write("virheellinen komento")
+                self._help()
+                continue
+
+            if action == "x":
+                break
+            elif action == "1":
+                self._new_course()
+            elif action == "2":
+                self._get_courses()
+            
+
+    def _new_course(self):
+        name = self._ui.read("Anna kurssinimi: ")
+        credit = self._ui.read("Anna opintopisteet: ")
+        self._repository.create(name,credit)
+
+    def _get_courses(self):
+        self._ui.write("{:<15}{:<18}".format(self._headers[0],self._headers[1]))
+        for i in self._repository.get():
+            self._ui.write("{:<15}{:<18}".format(i[1],i[2]))
+    
+    def _help(self):
+        for i in self._actions:
+            self._ui.write(self._actions[i])
