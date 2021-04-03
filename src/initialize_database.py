@@ -17,7 +17,7 @@ def create_tables(connection):
     cursor.execute('''
         create table courses (
             id integer primary key,
-            name text, credit int
+            course_name text, credit int
         );
     ''')
 

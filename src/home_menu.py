@@ -43,7 +43,7 @@ class HomeMenu:
     def _get_courses(self):
         self._ui.write("{:<15}{:<18}".format(self._headers[0],self._headers[1]))
         for i in self._repository.get():
-            self._ui.write("{:<15}{:<18}".format(i[1],i[2]))
+            self._ui.write("{:<15}{:<18}".format(i.course_name,i.credit))
     
     def _help(self):
         for i in self._actions:
