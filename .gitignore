@@ -8,3 +8,6 @@ __pycache__/
 data/database.sqlite
 data/test-database.sqlite
 htmlcov
+*.py[cod]
+*$py.class
+.cache/
