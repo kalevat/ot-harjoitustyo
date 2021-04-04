@@ -1,8 +1,8 @@
 from home_menu import HomeMenu
 
 def main():
-    h = HomeMenu()
-    h.start()
+    home = HomeMenu()
+    home.start()
 
 if __name__ == '__main__':
     main()

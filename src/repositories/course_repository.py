@@ -1,4 +1,3 @@
-from database_connection import get_database_connection
 from entities.courses import Courses
 
 
