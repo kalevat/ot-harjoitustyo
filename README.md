@@ -11,7 +11,7 @@ Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiske
 1. Asenna riippuvuudet komennolla:
 
 ```bash
-poetry install (tai python3 -m poetry)
+poetry install (tai python3 -m poetry install)
 ```
 
 2. Suorita vaadittavat alustustoimenpiteet komennolla:
