@@ -3,8 +3,8 @@ Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiske
 **"Mitä mun pitää tänään tehdä?"**
 
 # Dokumentaatio
-[Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
-[Työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
+- [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+- [Työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
 
 ## Asennus
 
