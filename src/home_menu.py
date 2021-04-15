@@ -28,12 +28,12 @@ class HomeMenu:
                 self._help()
                 continue
 
-            if action == "x":
-                break
+            if action == "1":
+                self._get_courses()
             elif action == "1":
                 self._new_course()
-            elif action == "2":
-                self._get_courses()
+            elif action == "x":
+                break
 
     def _new_course(self):
         name = self._ui.read("Anna kurssinimi: ")

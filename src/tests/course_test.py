@@ -8,7 +8,7 @@ class TestMenu(unittest.TestCase):
     def setUp(self):
         self.course = CourseRepository(get_database_connection())
         self.course.delete_all()
-        
+
     def test_create(self):
         self.course.create("english","2")
         courses = self.course.get()
@@ -25,4 +25,3 @@ class TestMenu(unittest.TestCase):
         self.assertEqual(courses[0].credit,2)
         self.assertEqual(courses[1].course_name,"math")
         self.assertEqual(courses[1].credit,5)
-

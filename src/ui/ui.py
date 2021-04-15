@@ -7,3 +7,4 @@ class UI:
 
     def read(self,text):
         return input(text)
+        
