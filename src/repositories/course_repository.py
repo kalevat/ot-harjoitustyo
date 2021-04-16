@@ -1,4 +1,5 @@
 from entities.courses import Courses
+import hashlib
 
 
 def courses_by_row(row):
@@ -35,9 +36,10 @@ class CourseRepository:
 
     def new_user(self, username, password):
         cursor = self._connection.cursor()
+        hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest()
         cursor.execute(
             'insert into users (username, password) values (?, ?)',
-            (username, password)
+            (username, hash_password)
         )
         self._connection.commit()
         return username
@@ -50,9 +52,10 @@ class CourseRepository:
 
     def find_password(self,username,password):
         cursor = self._connection.cursor()
+        hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest() 
         cursor.execute(
             'select * from users where username=? AND password=?',
-            (username,password)
+            (username,hash_password)
         )
         row = cursor.fetchall()
         return row

@@ -19,14 +19,18 @@ class LoginMenu:
         else:
             result=[]
             while result==[]:
-                password = self._ui.read("Anna salasana: ")
+                password = self._ui.read_password("Anna salasana: ")
                 result = self._repository.find_password(username,password)
         return username
 
     def _singup(self,username):
         result = self._ui.read("Haluatko luoda tunnuksen k/e: ")
         if result == "k":
-            password=""
-            while password=="":
-                password=self._ui.read("Anna uusi salasana: ")
+            password_check=False
+            while password_check==False:
+                password=self._ui.read_password("Anna uusi salasana: ")
+                if len(password)>4:
+                    password_check=True
+                else:
+                    self._ui.write("Liian lyhyt salasana")
             self._repository.new_user(username, password)
