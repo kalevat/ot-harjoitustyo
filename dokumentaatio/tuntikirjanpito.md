@@ -7,4 +7,5 @@
 |  3.4. | 3    | unit testit lisätty |
 |  4.4. | 3    | test coverage |
 |  4.4. | 3    | palautuksen viimeistely |
-|  yht  | 20    |  |
+| 15.4. | 3    | pylint, kaaviot, sql suunnittelu |
+|  yht  | 23    |  |
