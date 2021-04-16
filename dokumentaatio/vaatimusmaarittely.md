@@ -9,28 +9,28 @@ Alkuvaiheessa sovelluksella on ainoastaan yksi käyttäjärooli eli normaali kä
 
 ## Käyttöliittymäluonnos
 Sovellus koostuu eri näkymistä:
-- kirjautuminen
-- kurssitietojen hallinta
+- kirjautuminen (*tehty*)
+- kurssitietojen hallinta (*tehty*)
 - päivänäkymä ja tehtävien kuittaus
 - muut raportit
 
 ## Perusversion tarjoama toiminnallisuus
 
 ### Ennen kirjautumista
-- käyttäjä voi luoda järjestelmään käyttäjätunnuksen
-  - käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 5 merkkiä
-- käyttäjä voi kirjautua järjestelmään
-  - kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus kirjautumislomakkeelle
-  - jos käyttäjää ei olemassa, ilmoittaa järjestelmä tästä
+- käyttäjä voi luoda järjestelmään käyttäjätunnuksen (*tehty*)
+  - käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 5 merkkiä (*tehty*)
+- käyttäjä voi kirjautua järjestelmään (*tehty*)
+  - kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus kirjautumislomakkeelle (*tehty*)
+  - jos käyttäjää ei olemassa, ilmoittaa järjestelmä tästä (*tehty*)
 
 ### Kirjautumisen jälkeen
 - käyttäjä näkee kyseisen päivän työlistan
 - käyttäjä voi hallita kurssitietoja
-  - luoda uuden kurssin
+  - luoda uuden kurssin (*tehty*)
   - muuttaa tietoja
   - poistaa kurssin
 - käyttäjä voi kuitata päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
-- käyttäjä voi ajaa raportteja kurssitiedoistaan
+- käyttäjä voi ajaa raportteja kurssitiedoistaan (*tehty*)
 - käyttäjä voi kirjautua ulos järjestelmästä
 
 ## Jatkokehitysideoita
