@@ -27,7 +27,7 @@ class LoginMenu:
         result = self._ui.read("Haluatko luoda tunnuksen k/e: ")
         if result == "k":
             password_check=False
-            while password_check==False:
+            while password_check is False:
                 password=self._ui.read_password("Anna uusi salasana: ")
                 if len(password)>4:
                     password_check=True

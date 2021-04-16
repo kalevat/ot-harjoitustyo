@@ -1,5 +1,5 @@
-from entities.courses import Courses
 import hashlib
+from entities.courses import Courses
 
 
 def courses_by_row(row):
@@ -52,7 +52,7 @@ class CourseRepository:
 
     def find_password(self,username,password):
         cursor = self._connection.cursor()
-        hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest() 
+        hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest()
         cursor.execute(
             'select * from users where username=? AND password=?',
             (username,hash_password)
