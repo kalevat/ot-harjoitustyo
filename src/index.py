@@ -1,7 +1,11 @@
 from home_menu import HomeMenu
+from login import LoginMenu
 
 def main():
-    home = HomeMenu()
+    login = LoginMenu()
+    username=login.login()
+    
+    home = HomeMenu(username)
     home.start()
 
 if __name__ == '__main__':

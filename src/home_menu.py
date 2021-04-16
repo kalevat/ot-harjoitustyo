@@ -2,9 +2,8 @@ from ui.ui import UI
 from repositories.course_repository import CourseRepository
 from database_connection import get_database_connection
 
-
 class HomeMenu:
-    def __init__(self):
+    def __init__(self,username):
         self._actions = {
             "x": "x Lopeta",
             "1": "1 Uusi kurssi",
@@ -16,10 +15,11 @@ class HomeMenu:
         ]
         self._ui = UI()
         self._repository = CourseRepository(get_database_connection())
+        self._username = username
 
     def start(self):
         self._help()
-
+        
         while True:
             action = self._ui.read("Anna komento: ")
 

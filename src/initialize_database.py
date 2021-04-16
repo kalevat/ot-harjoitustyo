@@ -21,6 +21,20 @@ def create_tables(connection):
         );
     ''')
 
+    cursor.execute('''
+        create table users (
+            id integer primary key,
+            username text, password text
+        );
+    ''')
+
+    cursor.execute('''
+        create table register (
+            id integer primary key,
+            name_id int, course_is int
+        );
+    ''')
+
     connection.commit()
 
 
