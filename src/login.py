@@ -9,24 +9,24 @@ class LoginMenu:
 
     def login(self):
         username=""
-        while(username==""):
+        while username=="":
             username = self._ui.read("Anna käyttäjätunnus: ")
         result = self._repository.find_user(username)
         if result == []:
             self._ui.write("Ei tunnusta valmiina")
-            self.singup(username)
+            self._singup(username)
             self.login()
         else:
             result=[]
-            while(result==[]):
+            while result==[]:
                 password = self._ui.read("Anna salasana: ")
                 result = self._repository.find_password(username,password)
         return username
 
-    def singup(self,username):
+    def _singup(self,username):
         result = self._ui.read("Haluatko luoda tunnuksen k/e: ")
         if result == "k":
             password=""
-            while (password==""):
+            while password=="":
                 password=self._ui.read("Anna uusi salasana: ")
             self._repository.new_user(username, password)

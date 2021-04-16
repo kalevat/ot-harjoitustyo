@@ -4,7 +4,7 @@ from login import LoginMenu
 def main():
     login = LoginMenu()
     username=login.login()
-    
+
     home = HomeMenu(username)
     home.start()
 

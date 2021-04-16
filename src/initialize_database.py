@@ -8,6 +8,14 @@ def drop_tables(connection):
         drop table if exists courses;
     ''')
 
+    cursor.execute('''
+        drop table if exists users;
+    ''')
+
+    cursor.execute('''
+        drop table if exists register;
+    ''')
+
     connection.commit()
 
 

@@ -19,7 +19,6 @@ class HomeMenu:
 
     def start(self):
         self._help()
-        
         while True:
             action = self._ui.read("Anna komento: ")
 
@@ -28,7 +27,7 @@ class HomeMenu:
                 self._help()
                 continue
 
-            if action == "1":
+            if action == "2":
                 self._get_courses()
             elif action == "1":
                 self._new_course()

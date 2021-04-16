@@ -28,6 +28,10 @@ class CourseRepository:
         cursor = self._connection.cursor()
         cursor.execute('delete from courses')
         self._connection.commit()
+        cursor.execute('delete from users')
+        self._connection.commit()
+        cursor.execute('delete from register')
+        self._connection.commit()
 
     def new_user(self, username, password):
         cursor = self._connection.cursor()
@@ -52,3 +56,4 @@ class CourseRepository:
         )
         row = cursor.fetchall()
         return row
+        
