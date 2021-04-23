@@ -10,4 +10,5 @@
 | 15.4. | 3    | pylint, kaaviot, sql suunnittelu |
 | 16.4. | 3    | viikon 4 palautuksen viimeistely |
 | 22.4. | 1    | viikon 5 palautuksen suunnittelua |
-|  yht  | 27    |  |
+| 23.4. | 4    | lisää toiminnallisuutta ja testejä |
+|  yht  | 31    |  |
