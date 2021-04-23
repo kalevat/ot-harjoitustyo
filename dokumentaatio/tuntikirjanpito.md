@@ -9,4 +9,5 @@
 |  4.4. | 3    | palautuksen viimeistely |
 | 15.4. | 3    | pylint, kaaviot, sql suunnittelu |
 | 16.4. | 3    | viikon 4 palautuksen viimeistely |
-|  yht  | 26    |  |
+| 22.4. | 1    | viikon 5 palautuksen suunnittelua |
+|  yht  | 27    |  |
