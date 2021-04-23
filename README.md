@@ -62,3 +62,6 @@ Tiedoston [.pylintrc](./.pylintrc) määrittelemät tarkistukset voi suorittaa k
 ```bash
 poetry run invoke lint
 ```
+
+## Releases
+- [Viikon 5 release](https://github.com/kalevat/ot-harjoitustyo/releases/tag/viikko5)
