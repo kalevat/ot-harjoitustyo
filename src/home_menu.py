@@ -7,7 +7,9 @@ class HomeMenu:
         self._actions = {
             "x": "x Lopeta",
             "1": "1 Uusi kurssi",
-            "2": "2 Hae kurssit"
+            "2": "2 Hae kurssit",
+            "3": "3 Poista kurssi",
+            "4": "4 Muuta tietoja"
         }
         self._headers = [
             "Kurssi",
@@ -27,10 +29,14 @@ class HomeMenu:
                 self._help()
                 continue
 
-            if action == "2":
-                self._get_courses()
-            elif action == "1":
+            if action == "1":
                 self._new_course()
+            elif action == "2":
+                self._get_courses()
+            elif action == "3":
+                self._delete_course()
+            elif action == "4":
+                self._change_course()
             elif action == "x":
                 break
 
@@ -45,6 +51,21 @@ class HomeMenu:
         for i in self._repository.get():
             self._ui.write("{:<15}{:<18}".format(i.course_name, i.credit))
 
+    def _delete_course(self):
+        name = self._ui.read("Anna kurssinimi: ")
+        if self._repository.one_course(name) == []:
+            self._ui.write("Kurssia ei löydy")
+        else:
+            self._repository.delete(name)
+    
+    def _change_course(self):
+        name = self._ui.read("Anna kurssinimi: ")
+        if self._repository.one_course(name) == []:
+            self._ui.write("Kurssia ei löydy")
+        else:
+            credit = self._ui.read("Anna uudet opintopisteet: ")
+            self._repository.change(name,credit)
+    
     def _help(self):
         for i in self._actions:
             self._ui.write(self._actions[i])

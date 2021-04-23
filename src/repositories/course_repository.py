@@ -25,6 +25,33 @@ class CourseRepository:
         row = cursor.fetchall()
         return list(map(courses_by_row, row))
 
+    def one_course(self,name):
+        cursor = self._connection.cursor()
+        cursor.execute(
+            'select * from courses where course_name = ?',
+            (name,)
+        )
+        row = cursor.fetchall()
+        return row
+
+    def delete(self,name):
+        cursor = self._connection.cursor()
+        result= cursor.execute(
+            'delete from courses where course_name =?',
+            (name,)
+        )
+        self._connection.commit()
+        return result
+
+    def change(self,name,credit):
+        cursor = self._connection.cursor()
+        cursor.execute(
+            'update courses set credit=? where course_name=?',
+            (credit,name)
+        )
+        self._connection.commit()
+        return name
+
     def delete_all(self):
         cursor = self._connection.cursor()
         cursor.execute('delete from courses')
@@ -33,7 +60,7 @@ class CourseRepository:
         self._connection.commit()
         cursor.execute('delete from register')
         self._connection.commit()
-
+    
     def new_user(self, username, password):
         cursor = self._connection.cursor()
         hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest()
