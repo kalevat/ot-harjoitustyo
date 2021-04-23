@@ -34,7 +34,7 @@ class CourseRepository:
         row = cursor.fetchall()
         return row
 
-    def delete(self,name):
+    def delete_one(self,name):
         cursor = self._connection.cursor()
         result= cursor.execute(
             'delete from courses where course_name =?',

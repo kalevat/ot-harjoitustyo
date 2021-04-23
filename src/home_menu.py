@@ -56,7 +56,7 @@ class HomeMenu:
         if self._repository.one_course(name) == []:
             self._ui.write("Kurssia ei löydy")
         else:
-            self._repository.delete(name)
+            self._repository.delete_one(name)
 
     def _change_course(self):
         name = self._ui.read("Anna kurssinimi: ")
