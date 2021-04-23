@@ -27,11 +27,11 @@ Sovellus koostuu eri näkymistä:
 - käyttäjä näkee kyseisen päivän työlistan
 - käyttäjä voi hallita kurssitietoja
   - luoda uuden kurssin (*tehty*)
-  - muuttaa tietoja
-  - poistaa kurssin
+  - muuttaa tietoja (*tehty*)
+  - poistaa kurssin (*tehty*)
 - käyttäjä voi kuitata päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
 - käyttäjä voi ajaa raportteja kurssitiedoistaan (*tehty*)
-- käyttäjä voi kirjautua ulos järjestelmästä
+- käyttäjä voi kirjautua ulos järjestelmästä (*tehty*)
 
 ## Jatkokehitysideoita
 
