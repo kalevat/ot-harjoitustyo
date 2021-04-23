@@ -60,7 +60,7 @@ class CourseRepository:
         self._connection.commit()
         cursor.execute('delete from register')
         self._connection.commit()
-    
+
     def new_user(self, username, password):
         cursor = self._connection.cursor()
         hash_password = hashlib.sha256(str(password).encode('utf-8')).hexdigest()

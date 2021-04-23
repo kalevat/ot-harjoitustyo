@@ -57,7 +57,7 @@ class HomeMenu:
             self._ui.write("Kurssia ei löydy")
         else:
             self._repository.delete(name)
-    
+
     def _change_course(self):
         name = self._ui.read("Anna kurssinimi: ")
         if self._repository.one_course(name) == []:
@@ -65,7 +65,7 @@ class HomeMenu:
         else:
             credit = self._ui.read("Anna uudet opintopisteet: ")
             self._repository.change(name,credit)
-    
+
     def _help(self):
         for i in self._actions:
             self._ui.write(self._actions[i])
