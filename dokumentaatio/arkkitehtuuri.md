@@ -13,3 +13,9 @@ Pakkaus ui sisältää käyttöliittymän ja repositories tietokannan käsittely
 Ohjelman sovelluslogiikan kannalta oleelliset luokat:
 
 ![Pakkausrakenne ja luokat](kuvat/luokat.png)
+
+## Sekvenssikaavio
+
+Uuden kurssi luominen ohjelmalla:
+
+![Sekvenssikaavio](kuvat/sekvenssi.png)
