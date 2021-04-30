@@ -31,6 +31,7 @@ Käyttöliittymän kirjoitus, luku ja salasanan luku on toteutettu UI-luokkana.
 ## Tietojen tallennus
 
 Kaikki tiedot tallennetaan SQLITE tietokantaan
+
 Kannassa on taulut: 
 - users (käyttäjätunnukset, salasanat)
 - register (kursseille registeröinnit)
