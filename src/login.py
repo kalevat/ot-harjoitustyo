@@ -3,11 +3,18 @@ from repositories.course_repository import CourseRepository
 from database_connection import get_database_connection
 
 class LoginMenu:
+    """Kirjautumisesta vastaava luokka"""
     def __init__(self):
+        """Luokan konstruktori. Käyttäliittymä ja tietokantayhteys"""
         self._ui = UI()
         self._repository = CourseRepository(get_database_connection())
 
     def login(self):
+        """Kirjautuminen
+
+        Returns:
+            Käyttäjänimi
+        """
         username=""
         while username=="":
             username = self._ui.read("Anna käyttäjätunnus: ")
@@ -24,6 +31,11 @@ class LoginMenu:
         return username
 
     def _singup(self,username):
+        """Uuden tunnuksen luonti
+
+        Args:
+            username: käyttäjänimi
+        """
         result = self._ui.read("Haluatko luoda tunnuksen k/e: ")
         if result == "k":
             password_check=False
