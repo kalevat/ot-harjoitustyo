@@ -117,6 +117,10 @@ class HomeMenu:
             except ValueError:
                 self._ui.write("Väärä päivämäärä")
                 return
+            today_date=datetime.datetime.today().strftime('%Y%m%d')
+            if date<today_date:
+                self._ui.write("Väärä päivämäärä")
+                return
             self._repository.course_date(name,year+month+day)
 
     def _register_course(self):
@@ -129,8 +133,8 @@ class HomeMenu:
     def _my_exam(self):
         """Käyttäjän tulevat kurssit"""
 
-        date=datetime.datetime.today().strftime('%Y%m%d')
-        for i in self._repository.my_exam(self._username,date):
+        today_date=datetime.datetime.today().strftime('%Y%m%d')
+        for i in self._repository.my_exam(self._username,today_date):
             self._ui.write("{:<15}{:<18}".format(i[0], i[1][6:8]+"/"+i[1][4:6]+"/"+i[1][2:4]))
 
     def _help(self):
