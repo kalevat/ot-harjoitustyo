@@ -41,3 +41,13 @@ Jos käyttäjää ei löydy tietokannasta, ohjelma kysyy halutaanko luoda uusi t
 
 Salasanan tulee olla vähintään 5 merkkiä pitkä
 
+## Toimintajärjestys
+- (1) Luo uusi kurssi (syötä nimi ja opintopisteet)
+- (5) Syötä tenttipäivämäärä (syötä kurssin nimi, päivämäärän tulee olla tulevaisuudessa)
+- (6) Ilmoittaudu kurssille (syötä kurssin nimi)
+- (7) Tulevat tentit (tulevaisuudessa olevat tentit listattuna)
+
+## Muut toiminnallisuudet
+- (2) Hae kurssit (näyttää listauksen kaikista kursseista)
+- (3) Poista kurssi (voidaan poistaa kurssi)
+- (4) Muuta tietoja (voidaan vaihtaa kurssin opintopisteet) 
