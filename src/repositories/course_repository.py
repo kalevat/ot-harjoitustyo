@@ -86,4 +86,36 @@ class CourseRepository:
         )
         row = cursor.fetchall()
         return row
+
+    def course_date(self,name,date):
+        cursor = self._connection.cursor()
+        cursor.execute(
+            'update courses set date=? where course_name=?',
+            (date,name)
+        )
+        self._connection.commit()
+        return name
+
+    def register_course(self,name,username):
+        cursor = self._connection.cursor()
+        sql= """
+            insert into register (name_id,course_id)
+            values ((select id from users where username=?),
+            (select id from courses where course_name=?))
+            """
+        cursor.execute(sql,(username,name))
+        self._connection.commit()
+        return name
+
+    def my_exam(self,username,date):
+        cursor = self._connection.cursor()
+        sql = """
+            select c.course_name, c.date from register r
+            inner join courses c on c.id=r.course_id
+            where r.name_id=(select id from users where username=?)
+            AND c.date>=?
+            """
+        cursor.execute(sql,(username,date))
+        row = cursor.fetchall()
+        return row
         

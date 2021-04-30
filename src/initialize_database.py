@@ -25,7 +25,7 @@ def create_tables(connection):
     cursor.execute('''
         create table courses (
             id integer primary key,
-            course_name text, credit int
+            course_name text, credit int, date text
         );
     ''')
 
@@ -39,7 +39,7 @@ def create_tables(connection):
     cursor.execute('''
         create table register (
             id integer primary key,
-            name_id int, course_is int
+            name_id int, course_id int
         );
     ''')
 
