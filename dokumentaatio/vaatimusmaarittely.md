@@ -1,18 +1,17 @@
 # Vaatimusmäärittely
 
 ## Sovelluksen tarkoitus
-Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiskelee ja mitä päivittäisi kotitehtäviä on eri kursseissa. Myös kurssien perustiedot (op määrä, tenttiaikataulu, yms) voi tallentaa sovellukseen. Sovelluksesta on nähtävissä päivittäinen työlista ja tehtäviä voi merkitä tehdyiksi. 
-"Mitä mun pitää tänään tehdä?"
+Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiskelee ja mitä päivittäisi kotitehtäviä on eri kursseissa. Myös kurssien perustiedot (op määrä, tenttiaikataulu) voi tallentaa sovellukseen. Sovelluksesta on nähtävissä tulevat tentit. 
+"Koska on seuraava tentti?"
 
 ## Käyttäjät
 Alkuvaiheessa sovelluksella on ainoastaan yksi käyttäjärooli eli normaali käyttäjä. Myöhemmin sovellukseen mahdollisesti lisätään pääkäyttäjä rooli.
 
 ## Käyttöliittymäluonnos
-Sovellus koostuu eri näkymistä:
+Sovellus koostuu eri toiminnoista:
 - kirjautuminen (*tehty*)
 - kurssitietojen hallinta (*tehty*)
-- päivänäkymä ja tehtävien kuittaus
-- muut raportit
+- raportit (*tehty*)
 
 ## Perusversion tarjoama toiminnallisuus
 
@@ -24,14 +23,14 @@ Sovellus koostuu eri näkymistä:
   - jos käyttäjää ei olemassa, ilmoittaa järjestelmä tästä (*tehty*)
 
 ### Kirjautumisen jälkeen
-- käyttäjä näkee kyseisen päivän työlistan
 - käyttäjä voi hallita kurssitietoja
   - luoda uuden kurssin (*tehty*)
   - muuttaa tietoja (*tehty*)
   - poistaa kurssin (*tehty*)
-- käyttäjä voi kuitata päivittäisen tehtävän tai kurssikokonaisuuden tehdyksi
 - käyttäjä voi ajaa raportteja kurssitiedoistaan (*tehty*)
+- käyttäjä näkee tulevat tentit (*tehty*)
 - käyttäjä voi kirjautua ulos järjestelmästä (*tehty*)
+ 
 
 ## Jatkokehitysideoita
 
