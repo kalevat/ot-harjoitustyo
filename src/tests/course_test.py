@@ -3,10 +3,10 @@ from repositories.course_repository import CourseRepository
 from entities.courses import Courses
 from database_connection import get_database_connection
 
-
 class TestMenu(unittest.TestCase):
     def setUp(self):
         self.course = CourseRepository(get_database_connection())
+        self.users = CourseRepository(get_database_connection())
         self.course.delete_all()
 
     def test_create(self):
@@ -43,4 +43,16 @@ class TestMenu(unittest.TestCase):
         courses = self.course.get()
         self.assertEqual(courses[0].credit,4)
        
+    def test_course_date(self):
+        self.course.create("english","3")
+        self.course.course_date("english","20211230")
+        courses = self.course.get()
+        self.assertEqual(courses[0].date,"20211230")
 
+    def test_register_course(self):
+        self.course.create("english","3")
+        self.users.new_user("tomi","salasana")
+        self.course.register_course("english","tomi")
+        self.course.course_date("english","20211231")
+        register = self.course.my_exam("tomi","20210101")
+        self.assertEqual(len(register),1)

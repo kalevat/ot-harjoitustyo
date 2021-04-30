@@ -3,7 +3,7 @@ from entities.courses import Courses
 
 
 def courses_by_row(row):
-    return Courses(row['course_name'], row['credit']) if row else None
+    return Courses(row['course_name'], row['credit'], row['date']) if row else None
 
 
 class CourseRepository:
