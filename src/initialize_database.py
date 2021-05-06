@@ -52,7 +52,7 @@ def initialize_database():
     drop_tables(connection)
     create_tables(connection)
 
-
+# This allows us to call the initialize_database function using command line
 if __name__ == "__main__":
     initialize_database()
     
