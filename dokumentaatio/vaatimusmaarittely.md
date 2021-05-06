@@ -34,7 +34,7 @@ Sovellus koostuu eri toiminnoista:
 
 ## Jatkokehitysideoita
 
-Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
+Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla.
 - lisää raportteja (myös graaffisia)
 - viikko- ja periodinäkymä
 - lisää käyttäjäryhmiä (esim pääkäyttäjä, raportoija)
