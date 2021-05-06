@@ -41,4 +41,4 @@ Kannassa on taulut:
 
 ## Ohjelmaan rakenteeseen jääneet heikkoudet
 
-Ohjelman graaffinen käyttöliittymä jäi tulevaisuuden kehitysversioihin. UI-luokka antaa mahdollisuuden toteuttaa helposti graaffinen käyttöliittymä
+Ohjelman graaffinen käyttöliittymä jäi tulevaisuuden kehitysversioihin. UI-luokka antaa mahdollisuuden toteuttaa helposti graaffinen käyttöliittymän.
