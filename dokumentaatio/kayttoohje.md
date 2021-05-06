@@ -1,6 +1,6 @@
 # Käyttöohje
 
-Lataa projektin viimeisimmän [releasen](https://github.com/kalevat/ot-harjoitustyo/releases) lähdekoodi
+Lataa projektin viimeisimmän [releasen](https://github.com/kalevat/ot-harjoitustyo/releases) lähdekoodi.
 
 ## Konfigurointi
 
