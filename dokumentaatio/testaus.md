@@ -18,25 +18,14 @@ Käyttöliittymän valikkoja ei testata. Testauksen haarautumakattavuus on 97%
 
 ![](kuvat/testikattavuus.png)
 
-Testaamatta jäivät _build.py_- ja _initialize\_database.py_-tiedostojen suorittaminen komentoriviltä. Nämä olisi myös voinut jättää testikattavuuden ulkopuolelle. Lisäksi testaatamatta jäivät mm. tilanteet, joissa haetaan kirjautumattoman käyttäjän tekemättömät tehtävät ja uloskirjautuminen.
-
 ## Järjestelmätestaus
 
-Sovelluksen järjestelmätestaus on suoritettu manuaalisesti.
+Sovelluksen järjestelmätestaus on suoritettu manuaalisesti. Apuna on käytetty ulkopuolista testaajaa.
 
 ### Asennus ja konfigurointi
 
-Sovellus on haettu ja sitä on testattu [käyttöohjeen](./kayttoohje.md) kuvaamalla tavalla sekä macOS- että Linux-ympäristöön. Testauksessa on käytetty myös eri konfiguraatioita _.env_-tiedoston kautta.
-
-Sovellusta on testattu sekä tilanteissa, joissa käyttäjät ja työt tallettavat tiedostot ovat olleet olemassa ja joissa niitä ei ole ollut jolloin ohjelma on luonut ne itse.
-
-### Toiminnallisuudet
-
-Kaikki [määrittelydokumentin](./vaatimusmaarittely.md#perusversion-tarjoama-toiminnallisuus) ja käyttöohjeen listaamat toiminnallisuudet on käyty läpi. Kaikkien toiminnallisuuksien yhteydessä on syötekentät yritetty täyttää myös virheellisillä arvoilla kuten tyhjillä.
+Sovelluksen asennusta ja käyttöä on testattu [käyttöohjeen](./kayttoohje.md) kuvaamalla tavalla kahdessa eri Linux-ympäristöön.
 
 ## Sovellukseen jääneet laatuongelmat
 
-Sovellus ei anna tällä hetkellä järkeviä virheilmoituksia, seuraavissa tilanteissa:
-
-- Konfiguraation määrittelemiin tiedostoihin ei ole luku/kirjoitusoikeuksia
-- SQLite tietokantaa ei ole alustettu, eli `python -m poetry run invoke build`-komentoa ei ole suoritettu
+Sovelluksen päävalikon toiminnallisuutta testattiin vain manuaalisesti. Siihen ei tehty automaattitestejä.
