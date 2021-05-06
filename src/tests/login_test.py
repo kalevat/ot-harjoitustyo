@@ -4,7 +4,7 @@ from database_connection import get_database_connection
 from login import LoginMenu
 
 
-class TestMenu(unittest.TestCase):
+class TestLogin(unittest.TestCase):
     def setUp(self):
         self.users = CourseRepository(get_database_connection())
         self.users.delete_all()

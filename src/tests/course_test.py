@@ -3,7 +3,7 @@ from repositories.course_repository import CourseRepository
 from entities.courses import Courses
 from database_connection import get_database_connection
 
-class TestMenu(unittest.TestCase):
+class TestData(unittest.TestCase):
     def setUp(self):
         self.course = CourseRepository(get_database_connection())
         self.users = CourseRepository(get_database_connection())
