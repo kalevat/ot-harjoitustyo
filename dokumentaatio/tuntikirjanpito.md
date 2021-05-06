@@ -13,5 +13,5 @@
 | 23.4. | 4    | lisää toiminnallisuutta ja testejä |
 | 26.4. | 1    | sekvenssikaavio |
 | 30.4. | 7    | viikon 6 palautus ja uusi release |
-| 6.5. | 2    | loppupalautuksen viimeistely |
+| 6.5. | 2    | loppupalautuksen viimeistelyä |
 |  yht  | 41    |  |
