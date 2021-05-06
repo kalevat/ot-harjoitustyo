@@ -20,7 +20,7 @@ Käyttöliittymän valikkoja ei testata. Testauksen haarautumakattavuus on 97%
 
 ## Järjestelmätestaus
 
-Sovelluksen järjestelmätestaus on suoritettu manuaalisesti. Apuna on käytetty ulkopuolista testaajaa.
+Sovelluksen järjestelmätestaus on suoritettu manuaalisesti. Apuna on käytetty ulkopuolista testaajaa, joka on tehnyt testejä käyttöohjeen mukaisesti.
 
 ### Asennus ja konfigurointi
 
