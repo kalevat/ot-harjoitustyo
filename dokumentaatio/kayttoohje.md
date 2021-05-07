@@ -26,8 +26,9 @@ poetry run invoke build
 Nyt ohjelman voi käynnistää komennolla:
 
 ```
-poetry run invoke start
+poetry run python3 src/index.py
 ```
+(komento "poetry run invoke start" ei toimi kunnolla 
 
 ## Kirjautuminen
 
