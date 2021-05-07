@@ -14,4 +14,5 @@
 | 26.4. | 1    | sekvenssikaavio |
 | 30.4. | 7    | viikon 6 palautus ja uusi release |
 | 6.5. | 2    | loppupalautuksen viimeistelyä |
-|  yht  | 41    |  |
+| 7.5. | 3    | palautteen perusteella tehty muutoksia |
+|  yht  | 44    |  |
