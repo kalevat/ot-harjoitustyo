@@ -36,7 +36,7 @@ poetry run python3 src/index.py
 Ohjelman pystyy suorittamaan komennolla:
 
 ```bash
-poetry run invoke start
+poetry run python3 src/index.py
 ```
 
 ### Testaus
