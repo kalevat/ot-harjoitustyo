@@ -39,7 +39,7 @@ Ohjelman pystyy suorittamaan komennolla:
 ```bash
 poetry run python3 src/index.py
 ```
-
+(komento "poetry run invoke start" ei toimi kunnolla)
 ### Testaus
 
 Testit suoritetaan komennolla:
@@ -68,3 +68,6 @@ poetry run invoke lint
 
 ## Releases
 - [Viikon 5 release](https://github.com/kalevat/ot-harjoitustyo/releases/tag/viikko5)
+
+## Huomautukset
+Ohjelma tulee käynnistää "poetry run python3 src/index.py" käskyllä. Komento "poetry run invoke start" ei toimi kunnolla, kun käyttäjä antaa syötteitä.
