@@ -29,3 +29,5 @@ Sovelluksen asennusta ja käyttöä on testattu [käyttöohjeen](./kayttoohje.md
 ## Sovellukseen jääneet laatuongelmat
 
 Sovelluksen päävalikon toiminnallisuutta testattiin vain manuaalisesti. Siihen ei tehty automaattitestejä.
+
+Invoke ohjelmassa ilmeni ongelmia pythonin input komennon kanssa. Käyttäjä ei voi painaa backspace näppäintä input komennon yhdessä jos ohjelma on käynnistetty invoke kautta. Kursori ei liiku vasemmalle pythonin input kentissä. Ongelmaan ei löytynyt ratkaisua ja käyttöohjeisiin päivitettiin, että ohjelma tulee käynnistää "poetry run python3 src/index.py" käskyllä. Lisäksi jos ohjelma käynnistetään "poetry run invoke start" komennolla, niin käyttäjää varoitetaan ongelmasta. 
