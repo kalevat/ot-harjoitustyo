@@ -6,6 +6,7 @@ Sovelluksella käyttäjä voi ylläpitää tietoja kursseista, joita hän opiske
 - [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
 - [Työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
 - [Arkkitehtuurikuvaus](dokumentaatio/arkkitehtuuri.md)
+- [Testausdokumentti](dokumentaatio/testaus.md)
 - [Käyttöohje](dokumentaatio/kayttoohje.md)
 
 ## Asennus
