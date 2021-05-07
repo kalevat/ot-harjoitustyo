@@ -3,6 +3,11 @@ from invoke import task
 
 @task
 def start(ctx):
+    print("""
+    Ohjelma tulee käynnistää poetry run python3 src/index.py käskyllä. 
+    Komento poetry run invoke start ei toimi kunnolla, kun käyttäjä antaa syötteitä.
+    """
+    ) 
     ctx.run("python3 src/index.py")
 
 
