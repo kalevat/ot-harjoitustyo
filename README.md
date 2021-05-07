@@ -25,7 +25,7 @@ poetry run invoke build
 3. Käynnistä sovellus komennolla:
 
 ```bash
-poetry run invoke start
+poetry run python3 src/index.py (komento "poetry run invoke start" ei toimi kunnolla) 
 ```
 
 ## Komentorivitoiminnot
